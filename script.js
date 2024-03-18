@@ -10,13 +10,25 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 
 //Escribe tu código aquí
 
-
+console.log("Bienvenida/o al bootcamp P2 Juniors (BCN Singulars) de Factoría F5")
 
 
 //VARIABLES Y TIPOS DE DATOS
 //Ejercicio 2: Crea una variable por los siguientes tipos de dato: string, number, boolean, null, undefined, object, array e imprímelos en la consola.
 
 //Escribe tu código aquí
+
+let nombre="Santi";
+let number=27;
+let boolean="true";
+let x=null;
+let undefinedVariable=undefined;
+let person={
+    firstName:"Santi",
+    lastName:"Agudo",
+}
+let coches=['audi','ford','opel','bmw',]
+console.log(nombre, number, boolean, x, undefinedVariable, person, coches);
 
 
 
@@ -25,19 +37,26 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 
 //Escribe tu código aquí
 
-
+const postres=['helado', 'tarta', 'pastel' ]
+console.log(postres)
 
 
 //Ejercicio 4: Crea una constante con un tipo de dato objeto llamado coder que contengan dos propiedades, nombre y edad e imprímelo en la consola.
 
 //Escribe tu código aquí
 
+const coder={
+    nombre:"Jack",
+    edad:33
+}
+console.log(coder)
 
 
 
 //Ejercicio 5: Busca como imprimir en consola el tipo de dato de cada variable que hemos creado.
 
 //Escribe tu código aquí
+console.log(typeof(coder))
 
 
 
@@ -47,27 +66,32 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 
 //Escribe tu código aquí
 
-
+var suma=1+1
+console.log(suma)
 
 
 //Ejercicio 7: Crea una varible que reste 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
 
-
+var resta=2-1
+console.log(resta)
 
 
 //Ejercicio 8: Crea una varible que multiplique 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
 
-
+var multiplicacion=5*5
+console.log(multiplicacion)
 
 
 //Ejercicio 9: Crea una varible que divida 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
 
+var division=8/2
+console.log(division)
 
 
 
@@ -76,6 +100,9 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 
 //Escribe tu código aquí
 
+var primera=1;
+var segunda=2;
+console.log(primera==segunda)
 
 
 
@@ -83,32 +110,33 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 
 //Escribe tu código aquí
 
+console.log(primera != segunda)
 
 
 
 //Ejercicio 11: completa el ejercicio
-/*
+
 let num1 = 15
 let num2 = 20
 
-let comparacion = //Realiza la operación de comparación que consideres para que el resultado en consola sea true
+let comparacion = (num1 != num2) //Realiza la operación de comparación que consideres para que el resultado en consola sea true
 console.log(comparacion)
-*/
+
 
 //Ejercicio 12: completa el ejercicio
-/*
+
 let num3 = 1
 let num3AsString = "1"
 
-let result = //Realiza la operación de comparación que consideres entre las dos variables dadas, para que el resultado en consola sea false sin usar el comparador de desigualdad
-console.log(result) 
-*/
+let result =(num3 =! 1) //Realiza la operación de comparación que consideres entre las dos variables dadas, para que el resultado en consola sea false sin usar el comparador de desigualdad
+console.log(result)
+
 
 //Ejercicio 13: completa el ejercicio
-/*
-let result2 = //Realiza la operación de comparación que consideres con las dos variables del ejercicio anterior para que el resultado en consola sea true.
+
+let result2 =(num3 != 1) //Realiza la operación de comparación que consideres con las dos variables del ejercicio anterior para que el resultado en consola sea true.
 console.log(result2)
-*/
+
 
 
 //OPERADORES DE CADENAS
@@ -116,7 +144,9 @@ console.log(result2)
 
 //Escribe tu código aquí
 
-
+var nombree="Santiago"
+var apellidos="Agudo"
+var completo
 
 
 
